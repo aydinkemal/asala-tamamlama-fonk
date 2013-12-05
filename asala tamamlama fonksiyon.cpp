@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-//void asallik(int gelenSayi);
+
 void asalSayiTamamlama(int *ptr);
 void main()
 {
@@ -14,26 +14,10 @@ void main()
 	asalSayiTamamlama(ptr);
 
 	
-	/*asallik(sayi);*/
+
 }
 
-//void asallik(int gelenSayi)
-//{
-//	int asalOlmama = 0;
-//	for (int i = 2; i < gelenSayi; i++)
-//	{
-//
-//		if (0 == gelenSayi%i)
-//		{
-//			asalOlmama = 1;
-//		}
-//	}
-//	if (0 == asalOlmama)
-//	{
-//		printf("%d sayisi asaldir!", gelenSayi);
-//	}
-//	else printf("%d sayisi asal degildir!", gelenSayi);
-//}
+
 void asalSayiTamamlama(int *ptr)
 {
 	
